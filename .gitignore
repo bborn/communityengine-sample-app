@@ -1,0 +1,10 @@
+.DS_STORE
+.DS_Store
+tmp
+log/*.log
+public/plugin_assets
+db/schema.rb
+public/assets/*
+public/photos/*
+public/homepage_features/*
+coverage/*
