@@ -1,0 +1,34 @@
+.yui-b.sidebar
+  = render :partial => 'shared/admin_nav'
+
+#yui-main
+  .yui-b.box
+    %h3="Editing category".l
+    - form_for(:category, :url => category_path(@category), :html => { :method => :put, :class => "MainForm" }) do |f|
+
+      %label
+        ="Name".l
+        \:
+      = f.text_field :name
+
+      %label
+        ="Posting tips".l
+        \:
+      = f.text_area :tips, :rows => 3
+
+      %label
+        ="New Post text".l
+        \:
+      = f.text_field :new_post_text
+
+      %label
+        ="Navigation menu text".l
+        \:
+      = f.text_field :nav_text
+
+      %p
+        = submit_tag :update.l
+
+    = link_to 'Show'.l, category_path(@category)
+    |
+    = link_to 'Back'.l, categories_path

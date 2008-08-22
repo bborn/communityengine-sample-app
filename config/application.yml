@@ -1,0 +1,8 @@
+community_name: "CE Sample App"
+community_tagline: "A Sample Community using CommunityEngine"
+community_description:  "Tutorials are hard work!"
+support_email:  "support@example.com"
+meta_description: 'A description of your community for use in META tags.'
+meta_keywords: 'keywords for use in META tags'
+
+theme: beach

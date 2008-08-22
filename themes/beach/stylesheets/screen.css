@@ -1,0 +1,41 @@
+body {
+	background: #fff url(/images/theme/sand_tile.jpg);
+}
+
+#doc2 {
+	background: #fff;
+	padding: 10px;
+}
+
+#hd{
+	background: url(/images/theme/header.jpg) no-repeat left;
+}
+#hd h1 {
+	background-color:#000;
+	-moz-opacity: 0.6;
+	opacity:.60;
+	filter: alpha(opacity=60);		
+	margin: 1em;
+	}
+#hd h1 a {
+  display: block;
+	color:#fff;
+  height: 37px;
+	padding: 0 10px 0 10px;
+  outline: none; 		
+	}
+#hd h2 {
+  color: #fff; 
+	background-color:#000;
+	-moz-opacity: 0.6;
+	opacity:.60;
+	filter: alpha(opacity=60);				
+	padding: 10px;
+	}
+  #hd h2 a {
+    color: #B59F6D; 
+		}
+
+#NavBar {
+	margin-top: 100px;
+	}
