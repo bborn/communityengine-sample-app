@@ -74,4 +74,3 @@ Rails::Initializer.run do |config|
 end
 
 require "#{RAILS_ROOT}/vendor/plugins/community_engine/engine_config/boot.rb"
-Globalite.show_localization_keys_for_debugging = true if RAILS_ENV.eql?('development')
